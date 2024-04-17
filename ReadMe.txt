@@ -1,10 +1,10 @@
-#py脚本用于ECList的组合和整理
-#使用：		C:\Windows\System32>D:
-			cd D:\EClist
-			python extract_ec_from_keg.py
-			python extract_ec_from_keg2.py
-#输出结果：XXECKEGGList.txt
+#py script is used to combine and organize ECList
+#Use: C:\Windows\System32>D:
+cd D:\EClist
+python extract_ec_from_keg.py
+python extract_ec_from_keg2.py
+#Output result: XXECKEGGList.txt
 
-#说明：
-#extract_ec_from_keg.py：用于将EClist文件夹内的所有.keg文件中，提取“[EC:”和“]”之间的所有字符，如果在“[EC:”和“]”之间存在“ ”，则将“ ”替换为换行符，使得每一个所提取的字符单独存在于一行。当完成所有.keg文件的字符提取后，检查是否有重复的行，如果有则将重复的行删除，并将结果存储为ECKEGGList.txt
-#extract_ec_from_keg2.py：用于检查ECKEGGList.txt文件，删除带有“-”的行，然后删除重复行，并储存为XXECKEGGList.txt
+#illustrate:
+#extract_ec_from_keg.py: used to extract all characters between "[EC:" and "]" from all .keg files in the EClist folder, if there is "" between "[EC:" and "]" ", replace " " with a newline character so that each extracted character exists on a separate line. After the character extraction of all .keg files is completed, check whether there are duplicate lines, if so, delete the duplicate lines and store the results as ECKEGGList.txt
+#extract_ec_from_keg2.py: Used to check the ECKEGGList.txt file, delete lines with "-", then delete duplicate lines, and store them as XXECKEGGList.txt
