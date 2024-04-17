@@ -1,6 +1,6 @@
 #py脚本用于ECList的组合和整理
 #使用：		C:\Windows\System32>D:
-			cd D:\Qiang\NJAU\ModelConstruction\EClist
+			cd D:\EClist
 			python extract_ec_from_keg.py
 			python extract_ec_from_keg2.py
 #输出结果：XXECKEGGList.txt
