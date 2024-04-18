@@ -1,5 +1,5 @@
 #py script is used to combine and organize ECList
-#Use: C:\Windows\System32>D:
+#Usage: C:\Windows\System32>D:
 cd D:\EClist
 python extract_ec_from_keg.py
 python extract_ec_from_keg2.py
